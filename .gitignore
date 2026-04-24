@@ -1,0 +1,17 @@
+# Prevents local import data from bloating the repo
+.godot/
+
+# Prevents local editor settings (like which scripts you have open) from syncing
+*.uid
+
+# Ignore mobile export folders if you ever create them
+/android/
+/ios/
+
+# Ignore local build exports so you don't accidentally commit a 100MB .exe or .apk
+/build/
+/bin/
+
+# Temporary files created by some OS or editors
+.tmp/
+*.tmp
